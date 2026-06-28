@@ -168,7 +168,7 @@ fun DeclarationScreen(onBack: () -> Unit) {
             }
 
             Spacer(modifier = Modifier.height(24.dp))
-            HorizontalDivider()
+            Divider()
             Spacer(modifier = Modifier.height(24.dp))
 
             Text("DESTINATARIO", fontSize = 16.sp, fontWeight = FontWeight.Bold, color = MaterialTheme.colorScheme.primary)
@@ -205,7 +205,7 @@ fun DeclarationScreen(onBack: () -> Unit) {
             }
 
             Spacer(modifier = Modifier.height(24.dp))
-            HorizontalDivider()
+            Divider()
             Spacer(modifier = Modifier.height(24.dp))
 
             Text("CONTEUDO", fontSize = 16.sp, fontWeight = FontWeight.Bold, color = MaterialTheme.colorScheme.primary)
